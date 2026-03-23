@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: order-service
+datasource:
+   url: jdbc:postgresql://localhost:5432/order-master
+   driverClassName: org.postgresql.Driver
+jpa:
+  hibernate:
+    ddl-auto: none
+    show-sql: false

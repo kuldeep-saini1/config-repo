@@ -1,0 +1,14 @@
+global:
+ message: Welcome to customer service production environment!!
+server:
+ port: 8083
+message: Hello from prod!!
+spring:
+ datasource:
+  url: jdbc:postgresql://localhost:5432/cust_prod
+  username: postgres
+  password: 1234
+jpa:
+ hibernate:
+  ddl-auto: update
+  show-sql: true

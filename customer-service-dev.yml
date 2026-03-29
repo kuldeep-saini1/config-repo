@@ -5,7 +5,7 @@ server:
 message: Hello from dev!!
 spring:
  datasource:
-  url: jdbc:postgresql://localhost:5432/cust_dev
+  url: jdbc:postgresql://localhost:5432/customer_master
   username: postgres
   password: 1234
 jpa:

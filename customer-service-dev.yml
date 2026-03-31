@@ -5,8 +5,8 @@ server:
 message: Hello from dev!!
 spring:
  datasource:
-  url: jdbc:postgresql://localhost:5432/customer_master
-  username: postgres
+  url: jdbc:oracle:thin:@localhost:1521/XEPDB1
+  username: SYS AS SYSOPER
   password: 1234
 jpa:
  hibernate:

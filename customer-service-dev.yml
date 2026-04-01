@@ -6,7 +6,7 @@ message: Hello from dev!!
 spring:
  datasource:
   url: jdbc:oracle:thin:@localhost:1521/XEPDB1
-  username: SYS AS SYSOPER
+  username: SYS AS SYSDBA
   password: 1234
 jpa:
  hibernate:

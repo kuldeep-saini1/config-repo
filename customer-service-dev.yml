@@ -9,6 +9,14 @@ spring:
   username: SYS AS SYSDBA
   password: 1234
 jpa:
+# 1. Hibernate DDL Auto - This creates the table and sequence!
  hibernate:
   ddl-auto: update
-  show-sql: true
+# 2. Dialect
+  database-platform: org.hibernate.dialect.OracleDialect
+    
+# 3. Show SQL in the console
+show-sql: true
+properties:
+  hibernate:
+    format_sql: true

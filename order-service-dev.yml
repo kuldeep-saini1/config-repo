@@ -20,3 +20,4 @@ show-sql: true
 properties:
   hibernate:
     format_sql: true
+      default_schema: order_master

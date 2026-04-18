@@ -5,7 +5,8 @@ server:
 message: Hello from order dev!!
 spring:
  datasource:
-  url: jdbc:postgresql://localhost:5432/order-service?currentSchema=edbOrder
+  # url: jdbc:postgresql://localhost:5432/order-service?currentSchema=edbOrder
+  url: jdbc:postgresql://localhost:5432/postgres
   username: postgres
   password: 1234
 jpa:
